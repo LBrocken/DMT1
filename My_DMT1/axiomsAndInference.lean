@@ -83,6 +83,14 @@ axiom r : R
 #check P    -- a proposition
 #check p    -- a proof of it
 
+#check 5
+#check Nat
+#check p
+#check P
+#check Prop
+#check Type
+#check Type 1
+
 
 -- Construct proof of P ∧ Q using And.intro
 def pq :    P ∧ Q    :=  And.intro p q
